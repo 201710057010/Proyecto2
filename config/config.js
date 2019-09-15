@@ -21,7 +21,7 @@ var config = {
       name: 'articulos'
     },
     port: process.env.PORT || 3000,
-    db: 'mongodb://mongo-server/articulosem-test'
+    db: 'mongodb+srv://edlondonog:<oKkLiHbSqRDoVYFu>@cluster0-tccis.mongodb.net/test?retryWrites=true&w=majority'
   },
 
   production: {
@@ -31,7 +31,7 @@ var config = {
       name: 'articulos'
     },
     port: process.env.PORT || 3000,
-    db: 'mongodb://emontoya:*******@ds163397.mlab.com:63397/emontoya'
+    db: 'mongodb+srv://edlondonog:<oKkLiHbSqRDoVYFu>@cluster0-tccis.mongodb.net/test?retryWrites=true&w=majority'
   }
 };
 
