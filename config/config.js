@@ -10,7 +10,7 @@ var config = {
       name: 'articulos'
     },
     port: process.env.PORT || 3000,
-    db: 'mongodb://localhost/articulosem-development'
+    db: 'mongodb+srv://edlondonog:<oKkLiHbSqRDoVYFu>@cluster0-tccis.mongodb.net/test?retryWrites=true&w=majority'
   },
 
   test: {
